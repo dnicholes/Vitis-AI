@@ -15,7 +15,7 @@
 # */
 
 
-if { $::argc != 4 } {
+if { $::argc > 4 } {
     puts "ERROR: Program \"$::argv0\" requires 4 arguments!\n"
     puts "Usage: $::argv0 <xoname> <krnl_name> <target> <device>\n"
     exit
